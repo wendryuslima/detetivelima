@@ -4,14 +4,8 @@ import { Button } from "./ui/button";
 
 const Header = () => {
   return (
-    <div className="flex bg-[#18181b] items-center px-5 py-5">
-      <div className="flex w-full items-center justify-between gap-4">
-        <div className="flex flex-col mt-0 mb-0">
-          {" "}
-          <h1 className="text-2xl text-white">PRIME</h1>
-          <h1 className="text-2xl text-white">BIOME </h1>
-        </div>
-
+    <div className=" bg-[#007953]  px-5 py-3">
+      <div className="flex  w-full items-end  justify-end gap-4">
         <Sheet>
           <SheetTrigger>
             <MenuIcon className="text-white" size={22} />
@@ -21,7 +15,7 @@ const Header = () => {
               <a href="">Ingredients</a>
               <a href="">FREE Bonuses</a>
               <a href="">FAQ</a>
-              <Button className="bg-[#00baf0] text-w">Order Now</Button>
+              <Button className="bg-[#00baf0] w-28 text-b">Order Now</Button>
             </div>
           </SheetContent>
         </Sheet>
