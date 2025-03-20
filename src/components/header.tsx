@@ -15,7 +15,9 @@ const Header = () => {
               <a href="">Ingredients</a>
               <a href="">FREE Bonuses</a>
               <a href="">FAQ</a>
-              <Button className="bg-[#00baf0] w-28 text-b">Order Now</Button>
+              <Button className="bg-[#00baf0] text-primary w-28 text-b">
+                Order Now
+              </Button>
             </div>
           </SheetContent>
         </Sheet>
