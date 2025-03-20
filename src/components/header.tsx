@@ -1,27 +1,28 @@
 import { MenuIcon } from "lucide-react";
-import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
-import { Button } from "./ui/button";
+import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "./ui/sheet";
 
 const Header = () => {
   return (
-    <div className=" bg-[#007953]  px-5 py-3">
-      <div className="flex  w-full items-end  justify-end gap-4">
-        <Sheet>
-          <SheetTrigger>
-            <MenuIcon className="text-white" size={22} />
-          </SheetTrigger>
-          <SheetContent>
-            <div className="gap-4 flex flex-col mb-6 p-5">
-              <a href="">Ingredients</a>
-              <a href="">FREE Bonuses</a>
-              <a href="">FAQ</a>
-              <Button className="bg-[#00baf0] text-primary w-28 text-b">
-                Order Now
-              </Button>
-            </div>
-          </SheetContent>
-        </Sheet>
+    <div className="flex justify-between border-b border-solid items-center  py-4 px-4">
+      <div>
+        <h1 className="tracking-[7px]">
+          DETETIVE <span className="text-destructive">LIMA</span>
+        </h1>
       </div>
+
+      <Sheet>
+        <SheetTrigger>
+          <MenuIcon size={18} />
+        </SheetTrigger>
+        <SheetContent className="gap-4 space-y-7 border-l">
+          <SheetHeader className="gap-6">
+            <a>Sobre nós</a>
+            <a>Serviços</a>
+            <a>Contato</a>
+            <a>Recomendações</a>
+          </SheetHeader>
+        </SheetContent>
+      </Sheet>
     </div>
   );
 };
