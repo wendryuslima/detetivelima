@@ -1,9 +1,9 @@
 export const about = [
   {
     name: "about",
-    description1: `Com mais de 10 anos de experiência, [Nome da Empresa] é uma das
+    description1: `Com mais de 10 anos de experiência, somos  uma das
           principais agências de investigações no mercado, especializada em
-          casos conjugais e questões de confiança. Ao longo de nossa trajetória,
+          casos conjugais, investigação empresarial, investigação de paternidade, apoio jurídico e questões de confiança. Ao longo de nossa trajetória,
           conquistamos uma sólida reputação baseada na discrição, competência e,
           acima de tudo, na verdade.`,
   },

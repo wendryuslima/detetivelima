@@ -3,16 +3,19 @@ import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "./ui/sheet";
 
 const Header = () => {
   return (
-    <div className="flex justify-between border-b border-solid items-center  py-4 px-4">
-      <div>
+    <div className="flex w-full justify-between border-b border-solid items-center  py-4 px-4">
+      <div className="flex flex-col">
         <h1 className="tracking-[7px]">
           DETETIVE <span className="text-destructive">LIMA</span>
         </h1>
+        <p className="bg-white text-black px-1  text-sm">
+          Serviços de detetive particular
+        </p>
       </div>
 
       <Sheet>
         <SheetTrigger>
-          <MenuIcon size={18} />
+          <MenuIcon size={22} />
         </SheetTrigger>
         <SheetContent className="gap-4 space-y-7 border-l">
           <SheetHeader className="gap-6">
