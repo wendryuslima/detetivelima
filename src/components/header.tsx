@@ -8,7 +8,7 @@ const Header = () => {
         <h1 className="tracking-[7px]">
           DETETIVE <span className="text-destructive">LIMA</span>
         </h1>
-        <p className="bg-white text-black px-1  text-sm">
+        <p className="bg-white rounded-sm text-black px-1 text-xs">
           Serviços de detetive particular
         </p>
       </div>
@@ -19,10 +19,10 @@ const Header = () => {
         </SheetTrigger>
         <SheetContent className="gap-4 space-y-7 border-l">
           <SheetHeader className="gap-6">
-            <a>Sobre nós</a>
+            <a className="text-destructive">Sobre nós</a>
             <a>Serviços</a>
-            <a>Contato</a>
-            <a>Recomendações</a>
+            <a className="">Depoimentos</a>
+            <a className="text-destructive">FAQ</a>
           </SheetHeader>
         </SheetContent>
       </Sheet>

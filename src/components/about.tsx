@@ -3,6 +3,7 @@
 import { about } from "@/app/_utils/about";
 import Aos from "aos";
 import "aos/dist/aos.css";
+
 import { useEffect } from "react";
 
 const About = () => {
@@ -29,6 +30,7 @@ const About = () => {
             </div>
           ))}
         </div>
+       
       </div>
     </div>
   );

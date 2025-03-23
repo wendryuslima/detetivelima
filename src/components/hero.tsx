@@ -34,7 +34,7 @@ const Hero = () => {
         ))}
       </div>
 
-      <div className="flex m-auto  bg-white w-full flex-col items-center text-center justify-center">
+      <div className="flex m-auto pb-6  bg-white w-full flex-col items-center text-center justify-center">
         <Image
           className=""
           src="/price.jpg"
