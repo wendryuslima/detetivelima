@@ -40,8 +40,9 @@
   * {
     @apply scroll-smooth border-border antialiased;
   }
+  html,
   body {
-    @apply overflow-x-hidden bg-background text-base text-foreground;
+    @apply w-[100vw] overflow-x-hidden bg-background text-base text-foreground;
   }
 }
 
@@ -49,8 +50,7 @@
   @apply text-sm transition-colors hover:text-zinc-50 hover:underline hover:underline-offset-4;
 }
 
-width
-::-webkit-scrollbar {
+width ::-webkit-scrollbar {
   height: 5px;
   width: 5px;
   background: #18181b;

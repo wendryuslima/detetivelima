@@ -1,9 +1,9 @@
 "use client";
 
-// import { qualities } from "@/app/_utils/qualities";
+import { qualities } from "@/app/_utils/qualities";
 // import Aos from "aos";
 import "aos/dist/aos.css";
-// import Image from "next/image";
+import Image from "next/image";
 // import { useEffect } from "react";
 
 const Hero = () => {
@@ -14,7 +14,7 @@ const Hero = () => {
   // }, []);
   return (
     <>
-      {/* <div className="grid grid-cols-2 items-center justify-center gap-8 bg-white p-8 text-center">
+      <div className="grid grid-cols-2 items-center justify-center gap-8 bg-white p-8 text-center">
         {qualities.map((item, index) => (
           <div
             className="flex flex-col items-center justify-center text-center"
@@ -54,7 +54,7 @@ const Hero = () => {
         <p data-aos="fade-left" className="w-[200px] text-zinc-700">
           Quanto vale a pena pagar para descobrir a verdade?
         </p>
-      </div> */}
+      </div>
     </>
   );
 };

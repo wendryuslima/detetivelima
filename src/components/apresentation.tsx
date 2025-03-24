@@ -1,15 +1,15 @@
-import Image from "next/image";
+// import Image from "next/image";
 
 const Apresentation = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="relative h-[300px] w-full">
-        <Image
+        {/* <Image
           src="/aguia.jpg"
           alt="Detetive particular"
           fill
           className="rounded-lg object-cover"
-        />
+        /> */}
 
         <div className="absolute inset-0 flex flex-col items-center justify-center rounded-lg bg-black/50 p-4 text-center text-white">
           <h2 className="text-4xl font-bold uppercase">Detetive Particular</h2>
