@@ -1,18 +1,18 @@
 "use client";
 import { services } from "@/app/_utils/services";
-import Aos from "aos";
+// import Aos from "aos";
 import "aos/dist/aos.css";
 import { CheckIcon } from "lucide-react";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import { Button } from "./ui/button";
 import Link from "next/link";
 
 const Services = () => {
-  useEffect(() => {
-    document.documentElement.style.overflowX = "hidden";
-    document.body.style.overflowX = "hidden";
-    Aos.init();
-  }, []);
+  // useEffect(() => {
+  //   document.documentElement.style.overflowX = "hidden";
+  //   document.body.style.overflowX = "hidden";
+  //   Aos.init();
+  // }, []);
   return (
     <section id="services" className="mt-24 flex flex-col">
       <div className="text-center">

@@ -1,17 +1,17 @@
 "use client";
 
 import { qualities } from "@/app/_utils/qualities";
-import Aos from "aos";
+// import Aos from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 const Hero = () => {
-  useEffect(() => {
-    document.documentElement.style.overflowX = "hidden";
-    document.body.style.overflowX = "hidden";
-    Aos.init();
-  }, []);
+  // useEffect(() => {
+  //   document.documentElement.style.overflowX = "hidden";
+  //   document.body.style.overflowX = "hidden";
+  //   Aos.init();
+  // }, []);
   return (
     <>
       <div className="grid grid-cols-2 items-center justify-center gap-8 bg-white p-8 text-center">
