@@ -37,7 +37,7 @@ const Services = () => {
         ))}
       </div>
 
-      <div className="text-center mt-12">
+      <div data-aos="fade-right" className="text-center mt-12">
         <h2 className="px-4 text-lg">
           E o principal, o atendimento é 24h! Nos chame no WhatsApp.
         </h2>

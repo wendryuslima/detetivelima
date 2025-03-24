@@ -3,12 +3,14 @@ import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "./ui/sheet";
 
 const Header = () => {
   return (
-    <div className="flex w-full justify-between border-b border-solid items-center  py-4 px-4">
+    <div className="flex w-full justify-between border-b border-solid items-center  py-6 px-4">
       <div className="flex flex-col">
-        <h1 className="tracking-[7px]">
-          DETETIVE <span className="text-destructive">LIMA</span>
-        </h1>
-        <p className="bg-white rounded-sm text-black px-1 text-xs">
+        <div className="flex">
+          <h1 className="tracking-[7px]">
+            DETETIVE <span className="text-destructive">LIMA</span>
+          </h1>
+        </div>
+        <p className="bg-white rounded-sm text-black px-1  text-xs">
           Serviços de detetive particular
         </p>
       </div>
