@@ -1,9 +1,9 @@
-import Image from "next/image";
+// import Image from "next/image";
 
 const Apresentation = () => {
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="relative h-[300px] w-full">
+      {/* <div className="relative h-[300px] w-full">
         <Image
           src="/aguia.jpg"
           alt="Detetive particular"
@@ -21,7 +21,7 @@ const Apresentation = () => {
             ATENDIMENTO 24 HORAS <br />
           </h1>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
