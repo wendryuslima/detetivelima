@@ -2,7 +2,7 @@ export const qualities = [
   {
     image: "/clock.jpg",
     title: "Disponibilidade",
-    description: "Contratação 100% sigilosa e segura com seus dados.",
+    description: "Temos disponibilidade 24h por dia para atendê-los",
   },
 
   {

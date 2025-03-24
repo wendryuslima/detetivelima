@@ -29,7 +29,7 @@ const Hero = () => {
             <h1 className="font-semibold uppercase text-slate-950">
               {item.title}
             </h1>
-            <p className="w-[200px] text-zinc-700">{item.description}</p>
+            <p className="text-zinc-700">{item.description}</p>
           </div>
         ))}
       </div>
