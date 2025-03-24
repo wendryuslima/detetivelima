@@ -17,7 +17,7 @@ const Header = () => {
   //   }, 300);
   // };
   return (
-    <div className="flex w-full items-center justify-between border-b border-solid px-4 py-6">
+    <div className="flex items-center justify-between border-b border-solid px-4 py-6">
       <div className="flex flex-col">
         <div className="flex">
           <h1 className="tracking-[7px]">
@@ -29,7 +29,7 @@ const Header = () => {
         </p>
       </div>
 
-      <Sheet >
+      <Sheet>
         <SheetTrigger>
           <MenuIcon size={22} />
         </SheetTrigger>
