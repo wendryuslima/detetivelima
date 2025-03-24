@@ -2,7 +2,10 @@ import AccordionItems from "./accordion-item";
 
 const FAQ = () => {
   return (
-    <div className="flex w-full flex-col bg-white mt-24 items-center justify-center gap-4">
+    <div
+      id="FAQ"
+      className="flex w-full flex-col bg-white mt-24 items-center justify-center gap-4"
+    >
       <div className="flex w-full flex-col bg-white mt-24 items-center justify-center gap-4">
         <div>
           <h2 data-aos="fade-left" className="text-primary mt-12">

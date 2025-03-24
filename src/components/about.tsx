@@ -12,7 +12,7 @@ const About = () => {
     Aos.init();
   });
   return (
-    <div className="flex h-full mt-24  flex-col items-center  p-5 justify-center ">
+    <div id="about" className="flex h-full mt-24  flex-col items-center  p-5 justify-center ">
       <div className="text-center gap-4 mb-4 ">
         <h2 data-aos="fade-up" className="mb-4 text-destructive">
           Sobre nós
@@ -43,7 +43,7 @@ const About = () => {
           height={120}
         />
         <div data-aos="fade-right" className="space-y-4 mt-4">
-          <h1 className="font-bold uppercase">+ 700 clientes</h1>
+          <h1 className="font-bold uppercase">+ 700 clientes por todo Brasil</h1>
           <h1 className="font-bold uppercase">Atendimento personalizado</h1>
           <h1 className="font-bold uppercase">
             Equipe com mais de 5 profissionais treinados e capacitados

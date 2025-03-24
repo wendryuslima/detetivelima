@@ -3,6 +3,7 @@ import About from "@/components/about";
 import Apresentation from "@/components/apresentation";
 import Depoiments from "@/components/depoiments";
 import FAQ from "@/components/faq";
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Security from "@/components/security";
@@ -44,6 +45,7 @@ const Home = () => {
       <Depoiments />
       <FAQ />
       <Security />
+      <Footer />
     </>
   );
 };

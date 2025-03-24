@@ -5,13 +5,14 @@ import "aos/dist/aos.css";
 import { CheckIcon } from "lucide-react";
 import { useEffect } from "react";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const Services = () => {
   useEffect(() => {
     Aos.init();
   }, []);
   return (
-    <div className="flex mt-24 flex-col">
+    <section id="services" className="flex mt-24 flex-col">
       <div className="text-center">
         <h2 data-aos="fade-up" className="px-4">
           Porque contratar nossos serviços?
@@ -41,11 +42,13 @@ const Services = () => {
         <h2 className="px-4 text-lg">
           E o principal, o atendimento é 24h! Nos chame no WhatsApp.
         </h2>
-        <Button className="mt-6 bg-green-500 text-secondary">
-          Contratar serviço
-        </Button>
+        <Link href="https://wa.me/5511975104376?text=Olá!%20Quero%20mais%20informações">
+          <Button className="mt-6 bg-green-500 text-secondary">
+            Contratar serviço
+          </Button>
+        </Link>
       </div>
-    </div>
+    </section>
   );
 };
 
