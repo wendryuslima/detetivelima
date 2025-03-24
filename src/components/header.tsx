@@ -1,21 +1,21 @@
 import { MenuIcon } from "lucide-react";
 import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "./ui/sheet";
-import { useState } from "react";
+// import { useState } from "react";
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
 
-  const handleLinkClick = (
-    event: React.MouseEvent<HTMLAnchorElement>,
-    target: string,
-  ) => {
-    event.preventDefault();
-    setIsOpen(false);
+  // const handleLinkClick = (
+  //   event: React.MouseEvent<HTMLAnchorElement>,
+  //   target: string,
+  // ) => {
+  //   event.preventDefault();
+  //   setIsOpen(false);
 
-    setTimeout(() => {
-      document.querySelector(target)?.scrollIntoView({ behavior: "smooth" });
-    }, 300);
-  };
+  //   setTimeout(() => {
+  //     document.querySelector(target)?.scrollIntoView({ behavior: "smooth" });
+  //   }, 300);
+  // };
   return (
     <div className="flex w-full items-center justify-between border-b border-solid px-4 py-6">
       <div className="flex flex-col">
@@ -29,7 +29,7 @@ const Header = () => {
         </p>
       </div>
 
-      <Sheet open={isOpen} onOpenChange={setIsOpen}>
+      <Sheet >
         <SheetTrigger>
           <MenuIcon size={22} />
         </SheetTrigger>
@@ -38,28 +38,28 @@ const Header = () => {
             <a
               href="#about"
               className="header-link text-destructive"
-              onClick={(e) => handleLinkClick(e, "#about")}
+              // onClick={(e) => handleLinkClick(e, "#about")}
             >
               Sobre nós
             </a>
             <a
               href="#services"
               className="header-link"
-              onClick={(e) => handleLinkClick(e, "#services")}
+              // onClick={(e) => handleLinkClick(e, "#services")}
             >
               Serviços
             </a>
             <a
               href="#depoiments"
               className="header-link"
-              onClick={(e) => handleLinkClick(e, "#depoiments")}
+              // onClick={(e) => handleLinkClick(e, "#depoiments")}
             >
               Depoimentos
             </a>
             <a
               href="#FAQ"
               className="header-link text-destructive"
-              onClick={(e) => handleLinkClick(e, "#FAQ")}
+              // onClick={(e) => handleLinkClick(e, "#FAQ")}
             >
               FAQ
             </a>
