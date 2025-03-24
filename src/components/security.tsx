@@ -20,7 +20,7 @@ const Security = () => {
       </div>
 
       <div data-aos="fade-right" className="justify-center pb-4 text-center">
-        <h1 className="mt-4 text-center text-primary">
+        <h1 className="mt-4 px-6 text-center text-primary">
           NÃO DISPONIBILIZAMOS SEUS DADOS, O PROCESSO É 100% SIGILOSO E SEGURO.
         </h1>
         <Link href="https://wa.me/5511975104376?text=Olá!%20Quero%20mais%20informações">

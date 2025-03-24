@@ -1,4 +1,4 @@
-// import AccordionItems from "./accordion-item";
+import AccordionItems from "./accordion-item";
 
 const FAQ = () => {
   return (
@@ -12,7 +12,7 @@ const FAQ = () => {
             Perguntas frequentes
           </h2>
         </div>
-{/* 
+
         <AccordionItems
           itemTitle="Quanto custa contratar para uma investigação particular?"
           itemContent="Para cada tipo de investigação existe um custo, precisamos estabelecer estratégias diferenciadas para cada situação, seja ela conjugal, empresarial ou familiar. Os valores de contratações variam de R$ 750,00 à R$ 4.500,00."
@@ -28,7 +28,7 @@ const FAQ = () => {
         <AccordionItems
           itemTitle="Qual a garantia que tenho da descrição e do sigilo do serviço contratado?"
           itemContent="Total garantia, atuamos a mais de 10 anos, prestando serviços de alta qualidade ao nosso cliente, não solicitamos nenhuma ficha cadastral, o processo é 100% sigiloso."
-        /> */}
+        />
       </div>
     </div>
   );
