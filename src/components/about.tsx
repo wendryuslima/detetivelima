@@ -1,18 +1,18 @@
 "use client";
 
 import { about } from "@/app/_utils/about";
-// import Aos from "aos";
+import Aos from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
 
-// import { useEffect } from "react";
+import { useEffect } from "react";
 
 const About = () => {
-  // useEffect(() => {
-  //   document.documentElement.style.overflowX = "hidden";
-  //   document.body.style.overflowX = "hidden";
-  //   Aos.init();
-  // });
+  useEffect(() => {
+    document.documentElement.style.overflowX = "hidden";
+    document.body.style.overflowX = "hidden";
+    Aos.init();
+  });
   return (
     <div
       id="about"

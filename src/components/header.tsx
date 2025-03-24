@@ -1,21 +1,21 @@
-import { MenuIcon } from "lucide-react";
-import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "./ui/sheet";
-import { useState } from "react";
+// import { MenuIcon } from "lucide-react";
+// import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "./ui/sheet";
+// import { useState } from "react";
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
 
-  const handleLinkClick = (
-    event: React.MouseEvent<HTMLAnchorElement>,
-    target: string
-  ) => {
-    event.preventDefault();
-    setIsOpen(false);
+  // const handleLinkClick = (
+  //   event: React.MouseEvent<HTMLAnchorElement>,
+  //   target: string
+  // ) => {
+  //   event.preventDefault();
+  //   setIsOpen(false);
 
-    setTimeout(() => {
-      document.querySelector(target)?.scrollIntoView({ behavior: "smooth" });
-    }, 300);
-  };
+  //   setTimeout(() => {
+  //     document.querySelector(target)?.scrollIntoView({ behavior: "smooth" });
+  //   }, 300);
+  // };
   return (
     <div className="flex w-full justify-between border-b border-solid items-center  py-6 px-4">
       <div className="flex flex-col">
@@ -29,7 +29,7 @@ const Header = () => {
         </p>
       </div>
 
-      <Sheet open={isOpen} onOpenChange={setIsOpen}>
+      {/* <Sheet open={isOpen} onOpenChange={setIsOpen}>
         <SheetTrigger>
           <MenuIcon size={22} />
         </SheetTrigger>
@@ -65,7 +65,7 @@ const Header = () => {
             </a>
           </SheetHeader>
         </SheetContent>
-      </Sheet>
+      </Sheet> */}
     </div>
   );
 };
