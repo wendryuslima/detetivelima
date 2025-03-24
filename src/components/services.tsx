@@ -12,12 +12,12 @@ const Services = () => {
     Aos.init();
   }, []);
   return (
-    <section id="services" className="flex mt-24 flex-col">
+    <section id="services" className="mt-24 flex flex-col">
       <div className="text-center">
         <h2 data-aos="fade-up" className="px-4">
           Porque contratar nossos serviços?
         </h2>
-        <p data-aos="fade-right" className="text-zinc-500 mt-4">
+        <p data-aos="fade-right" className="mt-4 text-zinc-500">
           A Detetive Lima pode te ajudar a resolver com sigilo, profissionalismo
           e veracidade.
         </p>
@@ -25,20 +25,20 @@ const Services = () => {
 
       <div
         data-aos="fade-right"
-        className="mt-12 gap-4 grid grid-cols-2  items-center m-auto justify-center"
+        className="m-auto mt-12 grid grid-cols-2 items-center justify-center gap-4"
       >
         {services.map((service, index) => (
           <div
-            className="flex items-center text-center mx-auto justify-center w-full "
+            className="mx-auto flex w-full items-center justify-center text-center"
             key={index}
           >
-            <CheckIcon className="text-green-500 shrink-0" size={22} />
-            <p className="text-sm ml-2 flex-1 text-left">{service.name}</p>
+            <CheckIcon className="shrink-0 text-green-500" size={22} />
+            <p className="ml-2 flex-1 text-left text-sm">{service.name}</p>
           </div>
         ))}
       </div>
 
-      <div data-aos="fade-right" className="text-center mt-12">
+      <div data-aos="fade-right" className="mt-12 text-center">
         <h2 className="px-4 text-lg">
           E o principal, o atendimento é 24h! Nos chame no WhatsApp.
         </h2>

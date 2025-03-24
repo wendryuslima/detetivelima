@@ -2,7 +2,7 @@ import { InstagramIcon } from "lucide-react";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col justify-center px-4 mt-12 gap-4 items-center  text-white">
+    <div className="mt-12 flex flex-col items-center justify-center gap-4 px-4 text-white">
       <InstagramIcon />
 
       <p className="text-sm">© 2025 Todos os direiros reservados</p>

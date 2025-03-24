@@ -4,11 +4,11 @@ const FAQ = () => {
   return (
     <div
       id="FAQ"
-      className="flex w-full flex-col bg-white mt-24 items-center justify-center gap-4"
+      className="mt-24 flex w-full flex-col items-center justify-center gap-4 bg-white"
     >
-      <div className="flex w-full flex-col bg-white mt-24 items-center justify-center gap-4">
+      <div className="flex w-full flex-col items-center justify-center gap-4 bg-white">
         <div>
-          <h2 data-aos="fade-left" className="text-primary mt-12">
+          <h2 data-aos="fade-left" className="mt-12 text-primary">
             Perguntas frequentes
           </h2>
         </div>

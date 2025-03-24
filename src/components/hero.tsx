@@ -12,10 +12,10 @@ const Hero = () => {
   }, []);
   return (
     <>
-      <div className="grid grid-cols-2  text-center gap-8 bg-white  items-center  justify-center p-8">
+      <div className="grid grid-cols-2 items-center justify-center gap-8 bg-white p-8 text-center">
         {qualities.map((item, index) => (
           <div
-            className="items-center flex flex-col  justify-center text-center"
+            className="flex flex-col items-center justify-center text-center"
             key={index}
             data-aos="fade-left"
           >
@@ -26,15 +26,15 @@ const Hero = () => {
               height={60}
               alt="clock"
             />
-            <h1 className="text-slate-950 font-semibold uppercase">
+            <h1 className="font-semibold uppercase text-slate-950">
               {item.title}
             </h1>
-            <p className="text-zinc-700 w-[200px] ">{item.description}</p>
+            <p className="w-[200px] text-zinc-700">{item.description}</p>
           </div>
         ))}
       </div>
 
-      <div className="flex m-auto pb-6  bg-white w-full flex-col items-center text-center justify-center">
+      <div className="m-auto flex w-full flex-col items-center justify-center bg-white pb-6 text-center">
         <Image
           className=""
           src="/price.jpg"
@@ -45,11 +45,11 @@ const Hero = () => {
         />
         <h1
           data-aos="fade-left"
-          className="text-slate-950 font-semibold uppercase"
+          className="font-semibold uppercase text-slate-950"
         >
           Preço justo
         </h1>
-        <p data-aos="fade-left" className="text-zinc-700 w-[200px] ">
+        <p data-aos="fade-left" className="w-[200px] text-zinc-700">
           Quanto vale a pena pagar para descobrir a verdade?
         </p>
       </div>

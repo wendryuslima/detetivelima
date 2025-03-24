@@ -14,9 +14,9 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex h-full mt-36 flex-col items-center  p-5 justify-center"
+      className="mt-36 flex h-full flex-col items-center justify-center p-5"
     >
-      <div className="text-center gap-4 mb-4 ">
+      <div className="mb-4 gap-4 text-center">
         <h2 data-aos="fade-up" className="mb-4 text-destructive">
           Sobre nós
         </h2>
@@ -36,16 +36,16 @@ const About = () => {
         </div>
       </div>
 
-      <div className="mt-10 text-center gap-6 pb-10 justify-center">
+      <div className="mt-10 justify-center gap-6 pb-10 text-center">
         <Image
           data-aos="fade-left"
-          className=" gap-4 m-auto justify-center"
+          className="m-auto justify-center gap-4"
           src="/selo-verificacao.png"
           alt="/"
           width={120}
           height={120}
         />
-        <div data-aos="fade-right" className="space-y-4 mt-4">
+        <div data-aos="fade-right" className="mt-4 space-y-4">
           <h1 className="font-bold uppercase">
             + 700 clientes por todo Brasil
           </h1>

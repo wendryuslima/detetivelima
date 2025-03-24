@@ -4,12 +4,12 @@ import Link from "next/link";
 
 const Security = () => {
   return (
-    <div className="justify-center bg-white flex flex-col items-center ">
+    <div className="flex flex-col items-center justify-center bg-white">
       <div
         data-aos="fade-up"
-        className="text-center justify-center items-center flex flex-col"
+        className="flex flex-col items-center justify-center text-center"
       >
-        <h2 className="text-primary mt-12">Segurança</h2>
+        <h2 className="mt-12 text-primary">Segurança</h2>
         <Image
           className="bg-white"
           src="/locked.png"
@@ -19,12 +19,12 @@ const Security = () => {
         />
       </div>
 
-      <div data-aos="fade-right" className="text-center pb-4 justify-center">
-        <h1 className="text-primary text-center mt-4">
+      <div data-aos="fade-right" className="justify-center pb-4 text-center">
+        <h1 className="mt-4 text-center text-primary">
           NÃO DISPONIBILIZAMOS SEUS DADOS, O PROCESSO É 100% SIGILOSO E SEGURO.
         </h1>
         <Link href="https://wa.me/5511975104376?text=Olá!%20Quero%20mais%20informações">
-          <Button className="mt-6 px-3 bg-green-400">
+          <Button className="mt-6 bg-green-400 px-3">
             Falar com a detetive
           </Button>
         </Link>

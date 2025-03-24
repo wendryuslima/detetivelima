@@ -2,7 +2,7 @@ const Depoiments = () => {
   return (
     <div
       id="depoiments"
-      className="flex flex-col mt-24 items-center justify-center gap-4"
+      className="mt-24 flex flex-col items-center justify-center gap-4"
     >
       <div data-aos="fade-up">
         <h2>Depoimentos</h2>
