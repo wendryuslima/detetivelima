@@ -8,14 +8,14 @@ import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Security from "@/components/security";
 import Services from "@/components/services";
-// import { motion } from "framer-motion";
-// import Image from "next/image";
-// import Link from "next/link";
+import { motion } from "framer-motion";
+import Image from "next/image";
+import Link from "next/link";
 
 const Home = () => {
   return (
     <>
-      {/* <div className="fixed bottom-4 right-4">
+      <div className="fixed bottom-4 right-4">
         <motion.div
           className="absolute inset-0 bg-green-500 rounded-full"
           animate={{ scale: [1, 1.8, 1], opacity: [0.6, 0, 0.6] }}
@@ -35,7 +35,7 @@ const Home = () => {
             />
           </Link>
         </div>
-      </div> */}
+      </div>
 
       <Header />
       <Apresentation />
