@@ -9,6 +9,8 @@ import Link from "next/link";
 
 const Services = () => {
   useEffect(() => {
+    document.documentElement.style.overflowX = "hidden";
+    document.body.style.overflowX = "hidden";
     Aos.init();
   }, []);
   return (

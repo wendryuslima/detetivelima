@@ -38,15 +38,15 @@
 
 @layer base {
   * {
-    @apply border-border antialiased scroll-smooth;
+    @apply scroll-smooth border-border antialiased;
   }
   body {
-    @apply bg-background text-foreground text-base overflow-x-hidden;
+    @apply overflow-x-hidden bg-background text-base text-foreground;
   }
 }
 
 .header-link {
-  @apply hover:text-zinc-50 hover:underline-offset-4 hover:underline transition-colors text-sm;
+  @apply text-sm transition-colors hover:text-zinc-50 hover:underline hover:underline-offset-4;
 }
 
 /* width */
@@ -67,7 +67,7 @@ h2 {
 }
 
 .description {
-  @apply text-sm md:text-center md:max-w-[600px] md:mx-auto text-zinc-500 md:text-xl;
+  @apply text-sm text-zinc-500 md:mx-auto md:max-w-[600px] md:text-center md:text-xl;
 }
 
 section {

@@ -8,6 +8,8 @@ import { useEffect } from "react";
 
 const Hero = () => {
   useEffect(() => {
+    document.documentElement.style.overflowX = "hidden";
+    document.body.style.overflowX = "hidden";
     Aos.init();
   }, []);
   return (

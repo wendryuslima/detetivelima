@@ -9,6 +9,8 @@ import { useEffect } from "react";
 
 const About = () => {
   useEffect(() => {
+    document.documentElement.style.overflowX = "hidden";
+    document.body.style.overflowX = "hidden";
     Aos.init();
   });
   return (
