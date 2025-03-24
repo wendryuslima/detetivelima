@@ -7,7 +7,7 @@ const Depoiments = () => {
       <div data-aos="fade-up">
         <h2>Depoimentos</h2>
       </div>
-      <p className="text-sm font-semibold">
+      <p className="tex-center text-sm font-semibold">
         Não é só o que dizemos, é o que nossos clientes comprovam.
       </p>
     </div>
