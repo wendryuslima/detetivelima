@@ -4,7 +4,7 @@ import Apresentation from "@/components/apresentation";
 import Depoiments from "@/components/depoiments";
 import FAQ from "@/components/faq";
 import Footer from "@/components/footer";
-// import Header from "@/components/header";
+import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Security from "@/components/security";
 import Services from "@/components/services";
@@ -37,7 +37,7 @@ const Home = () => {
         </div>
       </div> */}
 
-      {/* <Header /> */}
+      <Header />
       <Apresentation />
       <About />
       <Hero />
