@@ -38,7 +38,7 @@
 
 @layer base {
   * {
-    @apply border-border antialiased scroll-smooth;
+    @apply border-border antialiased scroll-smooth overflow-x-hidden;
   }
   body {
     @apply bg-background text-foreground text-base overflow-x-hidden;

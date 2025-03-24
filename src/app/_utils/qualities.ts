@@ -1,6 +1,6 @@
 export const qualities = [
   {
-    image: "/clock.png",
+    image: "/clock.jpg",
     title: "Disponibilidade",
     description: "Contratação 100% sigilosa e segura com seus dados.",
   },
@@ -21,6 +21,4 @@ export const qualities = [
     title: "Confiabilidade",
     description: "Comprovamos ou descartamos suas suspeitas.",
   },
-
-  
 ];
