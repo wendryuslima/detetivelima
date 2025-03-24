@@ -12,7 +12,7 @@ const Hero = () => {
   }, []);
   return (
     <>
-      <div className="grid grid-cols-2 max-w-[1400px] text-center gap-8 bg-white  items-center  justify-center p-8">
+      <div className="grid grid-cols-2  text-center gap-8 bg-white  items-center  justify-center p-8">
         {qualities.map((item, index) => (
           <div
             className="items-center flex flex-col  justify-center text-center"

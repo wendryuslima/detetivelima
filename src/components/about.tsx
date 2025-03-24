@@ -36,10 +36,10 @@ const About = () => {
         </div>
       </div>
 
-      <div className="mt-10 text-center gap-6 justify-center">
+      <div className="mt-10 text-center gap-6 pb-10 justify-center">
         <Image
           data-aos="fade-left"
-          className=" gap-4 m-auto  justify-center"
+          className=" gap-4 m-auto justify-center"
           src="/selo-verificacao.png"
           alt="/"
           width={120}
