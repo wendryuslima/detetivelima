@@ -11,7 +11,7 @@ const Depoiments = () => {
       </div>
       <p
         data-aos="fade-down"
-        className="tex-center items-center justify-center text-sm font-semibold"
+        className="mx-auto items-center justify-center text-center text-sm font-semibold"
       >
         Não é só o que dizemos, é o que nossos clientes comprovam.
       </p>
