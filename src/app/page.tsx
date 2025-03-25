@@ -1,7 +1,7 @@
 "use client";
 import About from "@/components/about";
 import Apresentation from "@/components/apresentation";
-import Depoiments from "@/components/depoiments";
+import Depoiments from "@/components/depoiments/depoiments";
 import FAQ from "@/components/faq";
 import Footer from "@/components/footer";
 import Header from "@/components/header";

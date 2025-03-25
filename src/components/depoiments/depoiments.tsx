@@ -1,3 +1,5 @@
+import DepoimentsItem from "./depoiments-item";
+
 const Depoiments = () => {
   return (
     <div
@@ -7,9 +9,13 @@ const Depoiments = () => {
       <div data-aos="fade-up">
         <h2>Depoimentos</h2>
       </div>
-      <p className="tex-center justify-center items-center text-sm font-semibold">
+      <p
+        data-aos="fade-down"
+        className="tex-center items-center justify-center text-sm font-semibold"
+      >
         Não é só o que dizemos, é o que nossos clientes comprovam.
       </p>
+      <DepoimentsItem />
     </div>
   );
 };

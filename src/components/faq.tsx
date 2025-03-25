@@ -1,4 +1,4 @@
-import AccordionItems from "./accordion-item";
+import AccordionItems from "./accordion/accordion-item";
 
 const FAQ = () => {
   return (
@@ -27,7 +27,7 @@ const FAQ = () => {
         />
         <AccordionItems
           itemTitle="Qual a garantia que tenho da descrição e do sigilo do serviço contratado?"
-          itemContent="Total garantia, atuamos a mais de 10 anos, prestando serviços de alta qualidade ao nosso cliente, não solicitamos nenhuma ficha cadastral, o processo é 100% sigiloso."
+          itemContent="Total garantia, atuamos a mais de 15 anos, prestando serviços de alta qualidade ao nosso cliente, não solicitamos nenhuma ficha cadastral, o processo é 100% sigiloso."
         />
       </div>
     </div>
