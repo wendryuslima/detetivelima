@@ -30,7 +30,7 @@ const Header = () => {
       </div>
 
       <Sheet open={isOpen} onOpenChange={setIsOpen}>
-        <SheetTrigger>
+        <SheetTrigger className="px-4">
           <MenuIcon size={22} />
         </SheetTrigger>
         <SheetContent className="gap-4 space-y-7 border-l">
