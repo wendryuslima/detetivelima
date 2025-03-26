@@ -6,7 +6,7 @@ export const services = [
     name: "Localização de pessoas",
   },
   {
-    name: "Investigação empresarial",
+    name: "Apoio jurídico",
   },
   {
     name: "Relacionamentos conjugais",
